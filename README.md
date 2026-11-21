@@ -15,3 +15,7 @@ python3 main.py
 ```
 
 The program requires no dependencies or network access. It creates `/output` if needed and writes the joke to `/output/entry.txt` in UTF-8, with no trailing newline. The process needs permission to write there.
+
+## How it works
+
+`main.py` stores the joke in `JOKE`. When run, `main()` creates the output directory if needed, encodes the text as UTF-8, and writes the bytes to `/output/entry.txt` without adding a newline.

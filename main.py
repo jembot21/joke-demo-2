@@ -1,3 +1,5 @@
+"""Write the competition joke to /output/entry.txt as UTF-8 without a newline."""
+
 from pathlib import Path
 
 
